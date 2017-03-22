@@ -1,0 +1,425 @@
+ *{  margin: 0;  padding: 0;  }  img{border: none}  ul{list-style: none}  a{text-decoration: none}
+            #header{
+                width: 95%;
+                height: 104px;
+                margin: 0 auto;
+                display: -webkit-flex;
+            }
+            #menu{
+                width: 30px;
+                height: 104px;
+                float: left;
+            }
+            #menu img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+            #menu span{
+                display: block;
+                width: 100%;
+                cursor: pointer;
+                text-indent:3px;
+                font-size: 12px;
+            }
+            #logo{
+                width: 30%;
+                height: 104px;
+                float: left;
+                -webkit-flex-grow: 1;
+
+            }
+            #logo img{
+                width: 60px;
+                height: 60px;
+                display: block;
+                margin: 16px auto;
+            }
+            #login{
+                width: 80px;
+                height: 104px;
+                float: left;
+            }
+            #login #login-span1{
+                float: right;
+                margin-top: 35px;
+            }
+            #login-reg{
+                width: 100%;
+                float: left;
+            }
+            #login-reg a,#login-reg span{
+                float: left;
+                font-size: 15px;
+            }
+            #login-reg a{
+                color: #967a50;
+                font-weight: 900;
+            }
+            #bner{
+                width: 100%;
+            }
+            #bner img{
+                display: block;
+                width: 100%;
+                cursor: pointer;
+            }
+            #bner .bner-molile{
+                display: none;
+            }
+
+            #bner-rewards{
+                display: block;
+                width: 100%;
+            }
+
+            #container{
+                background: #1f1f1f;
+                overflow: hidden;
+            }
+            #container .container{
+                width: 90%;
+                margin:0 auto;
+                padding: 80px 0 100px;
+                text-align: center;
+                line-height: 50px;
+            }
+            #container .container h1{
+                color: white;
+            }
+            #container .container p{
+                color: #999;
+            }
+            #container .container #btn button{
+                margin: 50px 0 0 30px;
+                width: 114px;
+                height: 50px;
+                background: #1f1f1f;
+                border: 2px solid #a98e67;
+                color: #a98e67;
+                font-weight: 900;
+                font-size: 15px;
+            }
+            #container .container #btn button:hover{
+                color: white;
+                background:#a98e67 ;
+             }
+
+            #app{
+                height: 784px;
+                background: #e0e0e0;
+            }
+            #app #app-content{
+                width: 55%;
+                float: left;
+                margin-top: 150px;
+            }
+            #app #app-content h6{
+                color: #a98e67;
+                margin: 20px 15%;
+            }
+            #app #app-content p{
+                margin-left: 15%;
+                font-size: 26px;
+            }
+            #app .app-mobile {
+                width: 45%;
+                float: right;
+                margin-top: 100px;
+            }
+            #app #app-btn button{
+                width: 130px;
+                height: 50px;
+                background: #e0e0e0;
+                color: #a98e67;
+                border: 2px solid #a98e67;
+                margin-top: 200px;
+                margin-left: 15%;
+            }
+            #app #app-btn button:hover{
+                background: #a98e67;
+                color: white;
+            }
+            #app #app-btn button.button2{
+                width: 180px;
+                margin-left: 30px;
+            }
+            #app #app-btn2{
+                display: none;
+            }
+            #mosaic{
+                min-height: 600px;
+            }
+            #mosaic .mosaic-img{
+                float: left;
+                width : 50%;
+                position: relative;
+                display: table;
+            }
+            #mosaic .mosaic-img img{
+                  width: 100%;
+              }
+            #mosaic  .mosaic-text{
+                position: absolute;
+                bottom: 40%;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                line-height: 40px;
+                width: 100%;
+            }
+            #mosaic  .mosaic-text h6{
+                color: #a98e67;
+            }
+            #mosaic  .mosaic-text h3{
+                color: white;
+                font-size: 30px;
+            }
+            #barista{
+                clear: both;
+                width: 100%;
+                padding: 80px 0;
+                background: #f5f5f5;
+            }
+            #barista .barista-contain{
+                width: 100%;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+            #barista .barista-contain h6{
+                letter-spacing:3px;
+                color: #a98e67;
+            }
+            #barista .barista-contain h1{
+                color: #3d3d3d;
+                padding: 30px;
+            }
+            #barista .barista-contain span{
+                float: none;
+                border-top: 1px solid #d6d6d6;
+            }
+            #barista .barista-contain p{
+                color: #525252;
+                font-size: 18px;
+                margin: 20px 0;
+            }
+            #barista-Smallimg{
+                width: 100%;
+                height: 300px;
+                overflow: hidden;
+                position: relative;
+            }
+            #barista-Smallimg .barista-Bigimg{
+                width: 5000px;
+                position:absolute ;
+            }
+            #barista-Smallimg .barista-Bigimg a{
+                float: left;
+                width: 280px;
+                height: 280px;
+                margin: 10px;
+
+            }
+            #barista-Smallimg .barista-Bigimg img{
+                width:100%;
+            }
+            #barista-Smallimg .barista-Bigimg .img-title{
+                position: relative;
+                bottom: 80px;
+                left: 10px;
+                line-height: 20px;
+                letter-spacing: 3px;
+            }
+            #barista-Smallimg .barista-Bigimg .img-title h3{
+                color:#a98e67;
+                font-size: 13px;
+            }
+            #barista-Smallimg .barista-Bigimg .img-title p{
+                color: white;
+                font-size: 18px;
+            }
+            #barista-dot{
+                margin: 30px auto;
+                width: 95%;
+                text-align: center;
+            }
+            #barista-dot .dot{
+                /*float: inherit;*/
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: #8f8f8f;
+                margin: 0 2px;
+            }
+            #barista-dot .dot.hidden{
+                display: none;
+            }
+            @media (max-width: 1159px){
+                #barista-dot span.dot.three{
+                    display: inline-block;
+                }
+            }
+            @media (max-width: 869px){
+                #barista-dot span.dot.four{
+                    display: inline-block;
+                }
+            }
+            #reserve{
+                background: #060608;
+                /*overflow: hidden;*/
+                padding: 10% 5% 0 5%;
+                display: table;
+            }
+            #reserve .reserve-img{
+                width: 50%;
+                float: left;
+            }
+            #reserve .reserve-img img{
+                width: 100%;
+            }
+            #reserve .reserve-content{
+                width: 44%;
+                float: left;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                padding: 10% 0 5% 0;
+            }
+            #reserve .reserve-content h6{
+                margin: 10px;
+                color: #a98e67;
+                letter-spacing: 3px;
+            }
+            #reserve .reserve-content p{
+                font-size: 30px;
+                color: #707070;
+
+            }
+            #reserve .reserve-content .reserve-btn button{
+                width: 130px;
+                height: 50px;
+                background: #060608;
+                color: #a98e67;
+                font-weight: 900;
+                font-size: 15px;
+                border: 2px solid #a98e67;
+                margin-top: 50px;
+                margin-left: 5%;
+            }
+            #reserve .reserve-content .reserve-btn button:hover{
+                background: #a98e67;
+                color: white;
+            }
+            @media (max-width: 991px) {
+                #bner .bner-desktop{
+                    display: none;
+                }
+                #bner .bner-molile{
+                    display: block;
+                }
+                #reserve .reserve-content .reserve-btn{
+                    margin-left: 25%;
+                    margin-bottom: 30px;
+                }
+                #reserve{
+                    padding: 10% 0;
+                }
+                #reserve .reserve-content{
+                    padding: 0;
+                }
+                #reserve .reserve-content .reserve-btn button{
+                    display:block ;
+                }
+                #reserve .reserve-content .reserve-btn button.marginTop{
+                    margin-top: 40px;
+                }
+                #reserve .reserve-img{
+                    width: 60%;
+                }
+                #reserve .reserve-content{
+                    width: 40%;
+                }
+                #reserve .reserve-content p{
+                    padding: 0 5%;
+                }
+            }
+            @media (max-width: 767px) {
+                #logo img{
+                    height: auto;
+                }
+                #bner-rewards.rewards{
+                    width: auto;
+                    height: 135px;
+                }
+                #container .container #btn button{
+                    margin-left: 0;
+                    width: 100%;
+                }
+                #app #app-btn{
+                    display: none;
+                }
+                #app #app-btn2{
+                    display: block;
+                }
+                #app #app-btn2 button{
+                    width: 200px;
+                    height: 50px;
+                    background: #e0e0e0;
+                    color: #a98e67;
+                    border: 2px solid #a98e67;
+                    font-weight: 900;
+                    font-size: 15px;
+                    margin: 0 0 10% 20%;
+                    cursor: pointer;
+                }
+                #app{
+                    height: auto;
+                }
+                #app #app-content{
+                    width: 90%;
+
+                }
+                #app #app-content p{
+                    margin-left: 8%;
+                }
+                #app #app-content h6{
+                    margin-left: 8%;
+                }
+                #app .app-mobile{
+                    width: 90%;
+                    margin-top: 0;
+                }
+                #mosaic .mosaic-img{
+                    width: 100%;
+                }
+                #mosaic .mosaic-img img{
+                    display: block;
+                }
+                #reserve .reserve-img{
+                    width: 100%;
+                }
+                #reserve .reserve-content{
+                    width: 100%;
+                }
+                #reserve .reserve-content .reserve-btn{
+                    margin-left: 0;
+                }
+                #reserve .reserve-content .reserve-btn button{
+                    width: 90%;
+                }
+            }
+            #footer{
+                height: 139px;
+                background: #292929;
+                color: #A3A3A3;
+                font-size: 13px;
+                font-weight: 900;
+            }
+            #footer .footer-content{
+                width: 80%;
+                margin: 0 auto;
+                padding: 40px;
+            }
+            #footer a span{
+                color: #A3A3A3;
+            }

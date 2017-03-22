@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+        <title>星巴克首页</title>
+        <link rel="stylesheet" href="css/sub-menu.css"/>
+        <link rel="stylesheet" href="css/index.css"/>
+    </head>
+    <body>
+    <script>
+        function isMobile(){
+            if(/mobile|Android/ig.test(navigator.userAgent)){
+                return true;
+            }
+            return false;
+        }
+        var script = document.createElement('script');
+        script.onload  = function(){
+            var indexJs = document.createElement('script');
+            indexJs.src = 'js/index.js';
+            document.body.appendChild(indexJs);
+        };
+        script.src = isMobile()?'js/zepto.min.js':'js/jquery-1.12.4.js';
+        document.body.appendChild(script);
+
+
+    </script>
+    <div id="mask"></div>
+    <div id="sub-menu">
+        <ul class="sub-menu1">
+            <li><a href="#" class="ch"  class="ch">English</a></li>
+            <li><a href="#" class="ch"  class="ch">星巴克门店</a></li>
+        </ul>
+        <ul class="sub-menu2">
+            <li><a href="#"  class="ch">首页</a></li>
+            <li>
+                <div class="haschild">
+                    <a href="nogo"  class="ch">新品推荐</a>
+                    <span></span>
+                    <ul class="three-menu">
+                        <li><a href="">星巴克焕新食</a></li>
+                        <li><a href="">当季新品</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"  class="ch">星享俱乐部</a></li>
+            <li><a href="#"  class="ch">星巴克移动应用</a></li>
+            <li><a href="#"  class="ch">星礼卡</a></li>
+            <li>
+                <div class="haschild">
+                    <a href="#" class="ch">咖啡文化</a>
+                    <span></span>
+                    <ul class="three-menu">
+                        <li><a href="#">咖啡文化</a></li>
+                        <li><a href="#">星巴克臻选™咖啡</a></li>
+                        <li><a href="#">如何冲泡咖啡</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="haschild">
+
+                    <a href="nogo"  class="ch">饮品美食</a>
+                    <span></span>
+                    <ul class="three-menu">
+                        <li><a href="">饮品</a></li>
+                        <li><a href="">星巴克美食</a></li>
+                        <li><a href="">星巴克咖啡</a></li>
+                        <li><a href="">星巴克VIA® 免煮咖啡</a></li>
+                        <li><a href="">茶瓦纳™</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="haschild">
+                    <a href="nogo"  class="ch">关于我们</a>
+                    <span></span>
+                    <ul class="three-menu">
+                        <li><a href="">企业新闻</a></li>
+                        <li><a href="">我们的使命和价值观</a></li>
+                        <li><a href="">星巴克责任</a></li>
+                        <li><a href="">工作在星巴克中国</a></li>
+                        <li><a href="">加入星巴克</a></li>
+                        <li><a href="">星巴克在中国</a></li>
+                        <li><a href="">历史回顾</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="haschild">
+                    <a href="nogo"  class="ch">帮助中心</a>
+                    <span></span>
+                    <ul class="three-menu">
+                        <li><a href="">常见问题</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">使用条款</a></li>
+                        <li><a href="">隐私权政策</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+        <div id="header">
+            <div id="menu">
+                <img src="img/menu_icon.svg" alt=""/>
+                <span>菜单</span>
+            </div>
+            <div id="logo">
+                <img src="img/logo.png" alt=""/>
+            </div>
+            <div id="login">
+                <span id="login-span1">星享俱乐部</span>
+                <br/>
+                <div id="login-reg">
+                <a href="#nogo">登陆</a>
+                <span>或</span>
+                <a href="#nogo">注册</a>
+                </div>
+            </div>
+        </div>
+        <div id="bner">
+            <a href="#nogo" id="bner-big">
+                <img class="bner-desktop" src="img/kv-desktop-cn-20161027171806.jpg" alt=""/>
+                <img class = "bner-molile" src="img/kv-mobile-cn-20161027171809.jpg" alt=""/>
+            </a>
+            <div id="container">
+                <img id="bner-rewards" src="img/rewards.jpg" alt="" class="rewards"/>
+                <div class="container">
+                    <h1>星享俱乐部</h1>
+                    <p>开启您的星享之旅，星星越多、会员等级越高、好礼越丰富</p>
+                    <div id="btn">
+                        <button>注册</button>
+                        <button>登陆</button>
+                    </div>
+                </div>
+            </div>
+            <div id="app">
+                <div id="app-content">
+                    <h6>星巴克中国官方应用</h6>
+                    <p>更新或下载全新星巴克中国官方APP，开启更便捷的星巴克体验。将新购买的星礼卡轻松关联至您的账户，即时通过手机进行移动支付，查看消费记录，管理卡片。</p>
+                    <div id="app-btn">
+                        <button>IOS下载</button>
+                        <button class="button2">ANDROID下载</button>
+                    </div>
+                </div>
+                <div class="app-mobile">
+                    <img  src="img/mobile-app-20160705111504.png" alt=""/>
+                </div>
+                <div id ="app-btn2">
+                    <button>下载应用</button>
+                </div>
+            </div>
+            </div>
+        <div id="mosaic">
+            <a href="#nogo" class = "mosaic-img">
+                <img src="img/20e42950-aa53-11e6-9345-bca7c77dab11.jpeg" alt=""/>
+                <div class="mosaic-text mosaic-text1">
+                    <h6>星巴克天猫旗舰店限量供应中</h6>
+                    <h3>随时随地来一杯手冲心意 </h3>
+                </div>
+            </a>
+            <a href="#nogo" class = "mosaic-img">
+                <img src="img/homepage-grid.jpg" alt=""/>
+                <div class="mosaic-text mosaic-text2">
+                    <h6>圣诞季 送出你的心意</h6>
+                    <h3>点击了解更多</h3>
+                </div>
+            </a>
+        </div>
+        <div id="barista">
+            <div class="barista-contain">
+                <h6>星巴克经典</h6>
+                <h1>咖啡师的最爱</h1>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <p>回溯多年历史，星巴克的技巧纯熟的咖啡师一直用心制作星巴克的经典与饮品。</p>
+            </div>
+            <div id="barista-Smallimg">
+                    <div class="barista-Bigimg">
+                        <a href="#nogo">
+                            <img src="img/starbucks-flatwhite-20151026112356.jpg" alt=""/>
+                            <div class="img-title">
+                                <h3>手工调制浓缩咖啡 </h3>
+                                <p>馥芮白</p>
+                            </div>
+                        </a>
+                        <a href="#nogo">
+                            <img src="img/hot-caramel-macchiato-20151022185811.jpg" alt=""/>
+                            <div class="img-title">
+                                <h3>手工调制浓缩咖啡 </h3>
+                                <p>焦糖玛奇朵  </p>
+                            </div>
+                        </a>
+                        <a href="#nogo">
+                            <img src="img/hot-green-tea-latte-20160819155511.jpg" alt=""/>
+                            <div class="img-title">
+                                <h3>茶瓦纳™ </h3>
+                                <p>抹茶拿铁</p>
+                            </div>
+                        </a>
+                        <a href="#nogo">
+                            <img src="img/hot-extra-shot-mocha-20151022185836.jpg" alt=""/>
+                            <div class="img-title">
+                                <h3>手工调制浓缩咖啡 </h3>
+                                <p>浓郁咖啡摩卡</p>
+                            </div>
+                        </a>
+                        <a href="#nogo">
+                            <img src="img/green-tea-cream-frappuccino-20151022185851.jpeg" alt=""/>
+                            <div class="img-title">
+                                <h3>星冰乐® </h3>
+                                <p>抹茶星冰乐</p>
+                            </div>
+                        </a>
+                        <a href="#nogo">
+                            <img src="img/caramel-espresso-frappucino-20151022185901.jpeg" alt=""/>
+                            <div class="img-title">
+                                <h3>星冰乐® </h3>
+                                <p>焦糖浓缩咖啡星冰乐®</p>
+                            </div>
+                        </a>
+                        <a href="#nogo">
+                            <img src="img/Starbucks-Hazelnut-Latte-20150924183645.jpg" alt=""/>
+                            <div class="img-title">
+                                <h3>手工调制浓缩咖啡 </h3>
+                                <p>榛果风味拿铁</p>
+                            </div>
+                        </a>
+                        <a href="#nogo">
+                            <img src="img/starbucks-flatwhite-20151026112356.jpg" alt=""/>
+                            <div class="img-title">
+                                <h3>手工调制浓缩咖啡 </h3>
+                                <p>馥芮白</p>
+                            </div>
+                        </a>
+                        <a href="#nogo">
+                            <img src="img/hot-caramel-macchiato-20151022185811.jpg" alt=""/>
+                            <div class="img-title">
+                                <h3>手工调制浓缩咖啡 </h3>
+                                <p>焦糖玛奇朵  </p>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+            <div id="barista-dot">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot three hidden"></span>
+                <span class="dot four hidden"></span>
+            </div>
+        </div>
+        <div id="reserve">
+            <div class="reserve-img">
+                <img src="img/homepage-reserve.png" alt=""/>
+            </div>
+            <div class="reserve-content">
+                <h6>我们优质的咖啡产品</h6>
+                <p>我们持续在全世界各地寻找优质而稀少的咖啡豆，我们喜爱与您分享我们的新发现。我们在星巴克位于总部西雅图的星巴克臻选™咖啡烘焙工坊及品鉴馆为您精心烘焙星巴克臻选™咖啡。</p>
+                <div class="reserve-btn">
+                    <button>了解更多</button>
+                    <button class="marginTop">在这里购买</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-content">
+                <p>© 2016 Starbucks Corporation.<br>
+                    All rights reserved. 沪ICP备09020061号 </p>
+                <a href="#nogo">
+                    <img src="img/icpicon.png" alt=""/>
+                    <span>沪公网安备 31010402000253号</span>
+                </a>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,272 @@
+.sublink{
+	display: none;
+}
+.sublink h3{
+	float: left;
+	width: 60px;
+	height: 60px;
+	}
+.submenu {
+	width: 400px;
+	height: 60px;
+	border-bottom: 1px dashed #ccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.submenu li{
+	float: left;
+	width: 30px;
+	height: 18px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	border-right: 1px solid #ccc;
+}
+.submenu li a{
+	color: #000;
+	font-size: 13px;
+}
+.sublink{
+	width: 450px;
+	height: 80px;
+	border: 1px solid #ccc; 
+}
+#show{
+	width: 335px;
+	float: left;
+
+}
+#img-small img{
+	width: 330px;
+	height: 330px;
+	background: #f00;
+	float: left;
+	border: 1px solid #333;
+	display: none;
+}
+#img-small .small-selected{
+	display: block;
+}
+#pro-pic{
+	margin-top: 8px;
+	margin-left: 10px;
+	width: 788px;
+	float: left;
+	position: relative;
+}
+#mask{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #f00;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	float: left;
+	width: 330px;
+	height: 330px;
+	z-index: 1;
+
+}
+#show-box{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+	border: 1px solid #ccc;
+	display: none;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#img-box{
+	width: 330px;
+	height: 330px;
+	float: left;
+	position: absolute;
+	left: 337px;
+	overflow: hidden;
+	display: none;
+	z-index: 1;
+	border: 1px solid #333;
+}
+#img-big{
+	width: 800px;
+	height: 800px;
+}
+#img-big img{
+	display: none;
+}
+#img-big .big-selected{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	display: block;
+}
+#introduce{
+	width: 330px;
+	height: 250px;
+	clear: both;
+}
+#search-big img{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+#intro-img li{
+	display: none;
+}
+#intro-img .intro-selected{
+	display: block;
+}
+#pro-intro li{
+	float: left;
+	width: 62px;
+	height: 15px;
+	margin-right: 10px;
+	font-size: 12px;
+	border: 1px solid #898989;
+    border-bottom: none;
+    text-align: center;
+    /*padding-top: 2px;*/
+}
+#pro-word div{
+	float: left;
+	width: 330px;
+	border: 1px solid #898989;
+	font-size: 13px;
+	line-height: 20px;
+	display: none;
+}
+#pro-word .pro-selected{
+	display: block;
+}
+#sell{
+	width: 430px;
+	height: 432px;
+	float: left;
+	margin-left: 5px;
+}
+#sell h3{
+	font-size: 13px;
+	margin-top: 5px;
+}
+#sell .word{
+	font-size: 13px;
+	line-height: 20px;
+} 
+#sell span{
+	font-size: 13px;
+}
+#sell .underline{
+	text-decoration: line-through;
+}
+#sell .strong{
+	font-size: 30px;
+	color: #f00;
+}
+#choice-color{
+	display: inline;
+}
+#choice-color span{
+	display: none;
+}
+#choice-color .choice-selected{
+	display: inline;
+}
+#kind{
+	width: 430px;
+	height: 36px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#kind li{
+	float: left;
+	width: 34px;
+	height: 34px;
+	margin-right: 20px;	
+	border: 1px solid #ccc;
+
+}
+#kind img{
+	width: 34px;
+	height: 34px;
+	}
+#size{
+	width: 430px;
+	height: 26px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#size-choice{
+	display: inline;
+}
+#size-choice span{
+	display: none;
+}
+#size-choice .size-selected{
+	display: inline;
+}
+#size li{
+	float: left;
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;	
+	border: 1px solid #ccc;
+	line-height: 26px;
+	text-align: center;
+}
+#evalute .eva01{
+	width: 80px;
+	height: 16px;
+	background: url(../images/star-matrix.gif) no-repeat 0 0;
+}
+#eva02{
+	width: 80px;
+	height: 16px;
+	background: url(../images/star-matrix.gif) no-repeat 0 -96px;
+}
+#eva03{
+	width: 80px;
+	height: 16px;
+	background: url(../images/star-matrix.gif) no-repeat 0 -112px;
+}
+#eva04{
+	width: 80px;
+	height: 16px;
+	background: url(../images/star-matrix.gif) no-repeat 0 -128px;
+}
+#eva04{
+	width: 80px;
+	height: 16px;
+	background: url(../images/star-matrix.gif) no-repeat 0 -144px;
+}
+#eva05{
+	width: 80px;
+	height: 16px;
+	background: url(../images/star-matrix.gif) no-repeat 0 -160px;
+}
+#eva06{
+	width: 80px;
+	height: 16px;
+	background: url(../images/star-matrix.gif) no-repeat 0 -176px;
+}
+#evalute li{
+	display: none;
+}
+#evalute .select-li{
+	display: block;
+}
+#shopping-car{
+	margin-top: 20px;
+}
+#stars{
+	width: 80px;
+	height: 16px;
+	background: url(../images/star-matrix.gif);
+}
+#stars li{
+	float: left;
+	width: 16px;
+	height: 16px;
+}
